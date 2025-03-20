@@ -1,29 +1,81 @@
-.body {
-    border: thick black;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(233, 238, 240);
+}
+.navBar {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+}
+.main-container {
+  width: 70vw;
+  margin: auto;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
 }
 
-.navigation-bar {
-    border: thick black;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+li {
+  display: block;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+li:hover {
+  background-color: azure;
+}
+a {
+  text-decoration: none;
 }
 
-.news-button {
-    border: thick black;
+footer {
+  background-color: rgb(156, 216, 218);
+  margin-bottom: 0;
+  margin: auto;
+  min-height: 10vh;
 }
-
-.hiring-button {
-    border: thick black;
+.footer-notes {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-
-.about-us-button {
-    border: thick black;
+input {
+  padding: 5px;
+  margin: 4px;
+  margin-top: 20px;
+  margin-left: 0px;
 }
-
-.main-content {
-    border: thick black;
-
+.social i {
+  margin: 20px;
+  font-size: x-large;
 }
-
-.header-block {
-    border: thick black;
-
+.social i:hover {
+  color: aliceblue;
 }
