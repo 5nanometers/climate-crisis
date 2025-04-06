@@ -130,6 +130,20 @@
     color: aliceblue;
   }
 
+  a {
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    
+  }
+
+  a:visited {
+    text-decoration: underline;
+    color: purple;
+  }
+
   @media(max-width: 600px) {
     // hideNavBarOnMobile();
 
