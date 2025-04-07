@@ -1,9 +1,10 @@
 ## About The Project
 
-** SaveWaterSF is a public awareness website about the impact of climate change on water systems in SF.
+SaveWaterSF is a public awareness website about the impact of climate change on water systems in SF.
 
 ## Build With
-- HTML5 + CSS
+- HTML5
+- CSS
 
 ## How to Run Locally
 1. Clone this repo:
